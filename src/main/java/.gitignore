@@ -1,0 +1,64 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Eclipse ===
+*.log
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.orig
+*.rej
+*.sublime-workspace
+
+# Eclipse project files (optional to ignore)
+.project
+.classpath
+.settings/
+
+# === NetBeans ===
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === Maven / Gradle (if using) ===
+target/
+build/
+dependency-reduced-pom.xml
+*.log
+.mvn/
+.gradle/
+build.gradle
+build.gradle.kts
+
+# === Tomcat / Server generated ===
+logs/
+temp/
+work/
+webapps/
+*.log
+
+# === Config Files ===
+# Your DB config - NEVER PUSH passwords
+db.properties
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === VS Code (optional) ===
+.vscode/
